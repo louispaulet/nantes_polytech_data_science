@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="x00" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="PKC">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.55 0.38 0.07000000000000001</probabilities>
+		</cpt>
+		<cpt id="Erk">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.15 0.65 0.2</probabilities>
+		</cpt>
+		<cpt id="Akt">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Erk</parents>
+			<probabilities>0.3333333333333333 0.6458333333333334 0.02083333333333333 0.8838383838383839 0.1111111111111111 0.00505050505050505 0.15 0.35 0.5</probabilities>
+		</cpt>
+		<cpt id="Mek">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Akt</parents>
+			<probabilities>0.736318407960199 0.2587064676616915 0.004975124378109453 0.6533333333333334 0.3333333333333334 0.01333333333333334 0.0303030303030303 0.1212121212121212 0.8484848484848485</probabilities>
+		</cpt>
+		<cpt id="PKA">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKC Mek Erk</parents>
+			<probabilities>0.6666666666666666 0.2222222222222222 0.1111111111111111 0.01515151515151515 0.5151515151515151 0.4696969696969697 0.06666666666666667 0.2666666666666667 0.6666666666666667 0.6666666666666667 0.1666666666666667 0.1666666666666667 0.1333333333333333 0.8333333333333333 0.03333333333333333 0.1111111111111111 0.7777777777777777 0.1111111111111111 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.9333333333333332 0.03333333333333333 0.03333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.01449275362318841 0.9710144927536233 0.01449275362318841 0.1111111111111111 0.7777777777777777 0.1111111111111111 0.3333333333333333 0.5833333333333334 0.08333333333333333 0.03703703703703703 0.9259259259259258 0.03703703703703703 0.08333333333333333 0.8333333333333334 0.08333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.1111111111111111 0.7777777777777777 0.1111111111111111 0.05555555555555556 0.888888888888889 0.05555555555555556 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333</probabilities>
+		</cpt>
+		<cpt id="Raf">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Mek</parents>
+			<probabilities>0.7076923076923077 0.1384615384615385 0.1538461538461539 0.3076923076923077 0.576923076923077 0.1153846153846154 0.03333333333333333 0.03333333333333333 0.9333333333333335</probabilities>
+		</cpt>
+		<cpt id="Jnk">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA Mek</parents>
+			<probabilities>0.04761904761904762 0.4761904761904762 0.4761904761904762 0.5833333333333334 0.3333333333333333 0.08333333333333333 0.4444444444444444 0.1111111111111111 0.4444444444444444 0.3333333333333333 0.6594202898550724 0.007246376811594202 0.6388888888888888 0.3472222222222222 0.01388888888888889 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.9555555555555554 0.02222222222222222 0.02222222222222222 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333</probabilities>
+		</cpt>
+		<cpt id="P38">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA</parents>
+			<probabilities>0.3888888888888888 0.05555555555555555 0.5555555555555556 0.8743961352657005 0.1207729468599034 0.004830917874396135 0.8571428571428571 0.07142857142857142 0.07142857142857142</probabilities>
+		</cpt>
+		<cpt id="PIP2">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.78 0.15 0.07000000000000001</probabilities>
+		</cpt>
+		<cpt id="Plcg">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PIP2</parents>
+			<probabilities>0.8974358974358974 0.07692307692307693 0.02564102564102564 0.3333333333333333 0.2666666666666667 0.4 0.04166666666666666 0.04166666666666666 0.9166666666666666</probabilities>
+		</cpt>
+		<cpt id="PIP3">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.28 0.41 0.31</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.5905.0 ACADEMIC" name="100">
+			<node id="PKC">
+				<name>PKC</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 10 82 58</position>
+			</node>
+			<node id="PKA">
+				<name>PKA</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>298 10 370 58</position>
+			</node>
+			<node id="Raf">
+				<name>Raf</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>298 74 370 122</position>
+			</node>
+			<node id="Mek">
+				<name>Mek</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>202 10 274 58</position>
+			</node>
+			<node id="Erk">
+				<name>Erk</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 74 82 122</position>
+			</node>
+			<node id="Akt">
+				<name>Akt</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 10 178 58</position>
+			</node>
+			<node id="Jnk">
+				<name>Jnk</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>394 10 466 58</position>
+			</node>
+			<node id="P38">
+				<name>P38</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>394 74 466 122</position>
+			</node>
+			<node id="Plcg">
+				<name>Plcg</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 74 178 122</position>
+			</node>
+			<node id="PIP3">
+				<name>PIP3</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 138 82 186</position>
+			</node>
+			<node id="PIP2">
+				<name>PIP2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 202 82 250</position>
+			</node>
+			<textbox>
+				<caption>Input file: 100.txt\nData rows: 100\nElapsed time: 0.016s\n\nLearning algorithm: Greedy ThickThinning\nAlgorithm parameters:\nMax parent count: 8\nNo background knowledge\n\nScore: -980.761\nEM Log Likelihood: -728.98</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 270 208 424</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

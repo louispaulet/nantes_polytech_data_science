@@ -1,0 +1,102 @@
+---
+title: "SVM (Support Vector Machine) on diabetes dataset"
+output: html_notebook
+---
+
+Install and load libraries : mlr
+
+```{r echo = T, results = 'hide'}
+# install.packages("mlr", dependencies = TRUE)
+```
+
+Install and load libraries : tidyverse and mclust
+
+```{r echo = T, results = 'hide'}
+# install.packages("tidyverse")
+# install.packages("mclust")
+```
+
+Load the diabetes data :
+
+```{r}
+data(diabetes, package = "mclust")
+```
+
+Use the installed libs :
+
+```{r}
+library(mlr)
+library(tidyverse)
+```
+
+Format and display data : 
+
+```{r}
+diabetesTib <- as_tibble(diabetes)
+diabetesTib
+```
+
+Get some stats of the data :
+
+```{r}
+summary(diabetesTib)
+```
+
+Plot the data around some of its classes :
+
+```{r}
+ggplot(diabetesTib, aes(glucose, insulin, col = class)) +
+  geom_point()
+```
+```{r}
+ggplot(diabetesTib, aes(sspg, insulin, col = class)) +
+  geom_point()
+```
+
+```{r}
+ggplot(diabetesTib, aes(glucose, sspg, col = class)) +
+  geom_point()
+```
+
+Define a Task : 
+
+```{r}
+diabetesTask <- makeClassifTask(data = diabetesTib, target = "class")
+diabetesTask
+
+```
+
+Define a learner : K Nearest Neighbours
+
+```{r}
+svm <- makeLearner("classif.svm")
+```
+
+Train the model :
+
+```{r}
+svmModel <- train(svm, diabetesTask)
+```
+
+Use hold-out crossval :
+
+```{r}
+kfold <- makeResampleDesc("RepCV", folds = 10, reps = 50)
+```
+
+```{r}
+kFoldCV <- resample(learner = svm, task = diabetesTask, resampling = kfold)
+```
+
+Display the confusion matrix :
+
+```{r}
+calculateConfusionMatrix(kFoldCV$pred)
+```
+We can plot the svm model :
+
+```{r}
+plotLearnerPrediction(learner = svm, task = diabetesTask)
+
+```
+

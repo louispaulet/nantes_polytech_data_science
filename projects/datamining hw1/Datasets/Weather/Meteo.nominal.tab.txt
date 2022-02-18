@@ -1,0 +1,15 @@
+ID	Outlook	Temperature	Humidity	Windy	Class
+1	sunny	hot	high		N
+2	sunny	hot	high	true	N
+3	overcast	hot	high		P
+4	rain	mild	high		P
+5	rain	cool	normal		P
+6	rain	cool	normal	true	N
+7	overcast	cool	normal	true	P
+8	sunny	mild	high		N
+9	sunny	cool	normal		P
+10	rain	mild	normal		P
+11	sunny	mild	normal	true	P
+12	overcast	mild	high	true	P
+13	overcast	hot	normal		P
+14	rain	mild	high	true	N

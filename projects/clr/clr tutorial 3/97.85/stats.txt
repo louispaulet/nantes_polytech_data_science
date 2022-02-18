@@ -1,0 +1,7 @@
+Epoch 50 of 50 took 15.492s
+  training loss:		0.104902
+  validation loss:		0.071005
+  validation accuracy:		97.94 %
+Final results:
+  test loss:			0.067065
+  test accuracy:		97.85 %

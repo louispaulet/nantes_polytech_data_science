@@ -1,0 +1,182 @@
+,Term,ToCoreConcept
+0,project,27
+1,genes,52
+2,proteins,51
+3,software systems,24
+4,nodes,46
+5,communication,17
+6,features,9
+7,operating systems,29
+8,wireless sensor,14
+9,wsn,14
+10,subset,46
+11,device,31
+12,crucial role,31
+13,cloud computing,31
+14,understanding,8
+15,view,8
+16,prediction,11
+17,practical applications,27
+18,wireless sensor network,14
+19,image,0
+20,learning,9
+21,computer programming,42
+22,learners,9
+23,teachers,9
+24,databases,45
+25,encryption,18
+26,boolean functions,35
+27,cryptography,18
+28,bacteria,51
+29,large datasets,9
+30,objects,25
+31,progress,25
+32,cancer,51
+33,wsns,14
+34,semantic,10
+35,nosql,47
+36,recognition,5
+37,networks,14
+38,code,42
+39,smartphones,17
+40,real-time,29
+41,visual cryptography,20
+42,tsp,41
+43,parallelism,30
+44,computer networks,14
+45,computational thinking,44
+46,gpus,6
+47,mobile devices,17
+48,software development,27
+49,sdn,14
+50,embedded systems,29
+51,programming,42
+52,scalability,33
+53,augmented reality,1
+54,software architecture,24
+55,automatic detection,19
+56,pattern recognition,8
+57,artificial intelligence,11
+58,feature extraction,9
+59,data mining,9
+60,gene expression,52
+61,energy efficiency,28
+62,cell,51
+63,classes,42
+64,visualization,0
+65,execution time,28
+66,disease,51
+67,sequence,52
+68,online social networks,39
+69,computers,39
+70,automation,25
+71,big data,50
+72,data analysis,8
+73,darboux transformation,40
+74,cloud,50
+75,virtualization,29
+76,network traffic,17
+77,social networks,39
+78,developers,43
+79,information security,19
+80,elliptic curve cryptography,21
+81,abstraction,43
+82,mapreduce,49
+83,learning process,9
+84,programs,42
+85,modern operating systems,29
+86,optimization problem,39
+87,software product lines,24
+88,energy consumption,28
+89,patterns,24
+90,intrusion detection,21
+91,data storage,50
+92,sql,45
+93,sequences,52
+94,genetic algorithm,9
+95,graphics processing unit,7
+96,gpu,7
+97,network attacks,21
+98,relational database,45
+99,graphics processing units,7
+100,hadoop,49
+101,parallel computing,30
+102,software development process,27
+103,machine learning techniques,9
+104,intrusion detection system,21
+105,machine learning algorithms,9
+106,wireless networks,16
+107,virtual reality,0
+108,cpu,26
+109,order,37
+110,addition,36
+111,data,50
+112,combination,44
+113,design,0
+114,set,46
+115,line,0
+116,security,14
+117,elements,46
+118,data structures,46
+119,malicious activities,19
+120,internet,14
+121,database,45
+122,queries,45
+123,information,8
+124,values,46
+125,object,42
+126,means,40
+127,framework,29
+128,series,41
+129,efficiency,44
+130,distributed denial,19
+131,time,44
+132,class,42
+133,conjunction,36
+134,lax pair,36
+135,interaction,0
+136,performance,44
+137,real time,17
+138,effectiveness,44
+139,accuracy,40
+140,estimation,40
+141,noise,40
+142,parameters,42
+143,uncertainty,40
+144,workflow,27
+145,classification,9
+146,distribution,40
+147,knowledge,8
+148,user,0
+149,application,24
+150,computation,44
+151,artificial neural networks,10
+152,input,42
+153,web,14
+154,functions,41
+155,model,45
+156,dimensions,44
+157,simulation,26
+158,errors,24
+159,size,44
+160,conditions,42
+161,optimization,38
+162,training,9
+163,identification,9
+164,detection,9
+165,surface,40
+166,contrast,0
+167,ontologies,8
+168,focus,0
+169,components,24
+170,resolution,2
+171,approximation,13
+172,validation,9
+173,hardware,14
+174,behavior,0
+175,range,41
+176,computer vision applications,0
+177,motion,0
+178,images,6
+179,volume,40
+180,source,14

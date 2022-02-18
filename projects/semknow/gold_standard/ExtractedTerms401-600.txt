@@ -1,0 +1,51 @@
+feature extraction, 9
+data mining, 9
+gene expression, 52
+energy efficiency, 28
+cell, 51
+classes, 42
+visualization, 0
+execution time, 28
+disease, 51
+sequence, 52
+online social networks, 39
+computers, 39
+automation, 25
+big data, 50
+data analysis, , 8
+darboux transformation, 40
+cloud, 50
+virtualization, 29
+network traffic, 17
+social networks, 39
+developers, 43
+information security, 19
+elliptic curve cryptography, 21
+abstraction, 43
+mapreduce, 49
+learning process, 9
+programs, 42
+modern operating systems, 29
+optimization problem, 39
+software product lines, 24
+energy consumption, 28
+patterns, 24
+intrusion detection, 21
+data storage, 50
+sql, 45
+sequences, 52
+genetic algorithm, 9
+graphics processing unit, 7
+gpu, 7
+network attacks, 21
+relational database, 45
+graphics processing units, 7
+hadoop, 49
+parallel computing, 30
+software development process, 27
+machine learning techniques, 9
+intrusion detection system, 21
+machine learning algorithms, 9
+wireless networks, 16
+virtual reality, 0
+cpu, 26

@@ -1,0 +1,157 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,upref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+\title{Latex Assignment}
+\author{Louis Paulet }
+\date{November 4th 2020}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\section{Exercise 1}
+
+This assignment is divided into different sections and subsections. The first
+sections is called Exercise 1 and this section contains two subsections Exercise
+1.1 and Exercise 1.2. Exercise 1.1 contains a numbered list over the authors
+favorite colours. Exercise 1.2 contains some mathematical expressions.
+
+\subsection{Exercise 1.1}
+
+My favorite colours are:
+
+\begin{enumerate}
+\item Blue
+\item \textit{Red}
+\item \textbf{Yellow}
+\item \textsc{Green}
+\end{enumerate}
+
+\subsection{Exercise 1.2}
+To be able to write mathematics in LATEX, you may have to load some packages.
+Now we can try to write a quite simple one, numbered.
+
+\begin{equation}
+\int_{0}^{\infty}{\frac{\sin x}{x}}dx
+\end{equation}
+
+Note that the number near the equations allows to easily refer to it. In Eq. (1),
+we are integrating a sinusoidal function on $\mathbb{R}^+$. Another possibility is to present
+some aligned lines without numbers.
+
+
+\begin{align*}
+ a^2 + b^2 & = c^2 \\
+ a_{1} + b_{1} & = \alpha c_{1} \\
+ a_{2} & = c_{1} + c_{2}
+\end{align*}
+
+Equations can also be gathered.
+
+\begin{equation}
+\sum_{n=0}^{100} n^2-n = 123456
+\end{equation}
+
+\begin{equation}
+\sqrt{x^2+y^2} = z
+\end{equation}
+
+To make the reading easier, there are a lot of different boundaries, here are some
+of them
+
+\begin{equation}
+\left\{ \left[ \left( \frac{\pi^2 \Delta}{\varepsilon} \right) \right]\right\}
+\end{equation}
+
+\section{Exercise 2}
+
+This section contains a table on some movies. The first column in Table 1 is left
+aligned, the second column is right aligned end the third column is centered.
+Note that we can also number the tables for reference.
+
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l | r | c|}
+\hline
+\textbf{Name of the movie} & Length & Grade\\
+\hline
+Die Hard & 131 min & \textcolor{green}{A} \\
+The fellowship of the ring & 178 min & B \\
+Titanic & 195 min & \textcolor{red}{E} \\
+Rush hour & 98 min & C \\
+\hline
+\end{tabular}
+\caption{A table on some movies}
+\label{table:1}
+\end{center}
+\end{table}
+
+\definecolor{ballblue}{rgb}{0.13, 0.67, 0.8}
+
+As you can see, this is quite easy to add color to your text, as well as adding
+\colorbox{ballblue}{some colored boxes} . However, be sure to use a correct combination of colors,
+otherwise, \colorbox{blue}{\textcolor{ballblue}{it becomes almost unreadable}} .
+
+\section{Exercise 3}
+
+We are going to insert a picture in this section. You can use your own picture,
+but be sure to scale it in latex so that it looks like the same way as in this
+document. We can also refer to such images, as shown by Figure 1.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=8cm]{assignment_latex_picture.png}
+\caption{ This is Data Science, the width of the picture is 8cm !}
+  \label{fig:dataScience}
+\end{center}
+\end{figure}
+
+\section{Exercise 4}  
+
+This section contains the last task. You will find a longer calculation.
+
+\begin{equation*} \label{eq1}
+\begin{split}
+\int_{x_{p}}^{\infty}{x}dF & = \int_{x_{p}}^{\infty}{xf(x)}dx \\
+ & = \int_{x_{p}}^{\infty}{x\frac{ab^a}{x^{a+1}}}dx \\
+ & = \lim_{R\to\infty} ab^a \int_{x_{p}}^{R}{\frac{1}{x^a}}dx
+\end{split}
+\end{equation*}
+
+After this calculation, we insert a table of contents, a list of floats, and some
+references. Therefore, we need to cite these interesting papers \cite{latexcompanion}, and \cite{einstein}, but
+also this classic book \cite{knuthwebsite}.
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+%Bibliographic references
+\begin{thebibliography}{9}
+\bibitem{latexcompanion} 
+Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+\textit{The \LaTeX\ Companion}. 
+Addison-Wesley, Reading, Massachusetts, 1993.
+
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) [\textit{On the electrodynamics of moving bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+
+\bibitem{knuthwebsite} 
+Knuth: Computers and Typesetting,
+\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+
+
+\end{document}

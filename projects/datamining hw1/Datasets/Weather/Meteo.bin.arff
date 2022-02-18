@@ -1,0 +1,28 @@
+@relation données-Assoc.tab-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last
+
+@attribute ID numeric
+@attribute Outlook=sunny numeric
+@attribute Outlook=overcast numeric
+@attribute Outlook=rain numeric
+@attribute Tempreature=hot numeric
+@attribute Tempreature=mild numeric
+@attribute Tempreature=cool numeric
+@attribute Humidity numeric
+@attribute Windy numeric
+@attribute Class {N,P}
+
+@data
+1,1,0,0,1,0,0,0,0,N
+2,1,0,0,1,0,0,0,1,N
+3,0,1,0,1,0,0,0,0,P
+4,0,0,1,0,1,0,0,0,P
+5,0,0,1,0,0,1,1,0,P
+6,0,0,1,0,0,1,1,1,N
+7,0,1,0,0,0,1,1,1,P
+8,1,0,0,0,1,0,0,0,N
+9,1,0,0,0,0,1,1,0,P
+10,0,0,1,0,1,0,1,0,P
+11,1,0,0,0,1,0,1,1,P
+12,0,1,0,0,1,0,0,1,P
+13,0,1,0,1,0,0,1,0,P
+14,0,0,1,0,1,0,0,1,N

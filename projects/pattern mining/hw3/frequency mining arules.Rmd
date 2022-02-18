@@ -1,0 +1,92 @@
+---
+title: "arules -  Mining Association Rules and Frequent Itemsets with R"
+output: html_notebook
+---
+
+From https://github.com/mhahsler/arules
+
+```{r}
+# install.packages("arules")
+
+```
+
+Load package and mine some association rules.
+
+```{r}
+library("arules")
+data("Adult")
+
+rules <- apriori(Adult, parameter = list(supp = 0.5, conf = 0.9, target = "rules"))
+```
+```{r}
+Adult
+```
+
+Show basic statistics.
+
+```{r}
+summary(rules)
+```
+
+Inspect rules with the highest lift.
+
+```{r}
+inspect(head(rules, by = "lift"))
+```
+
+Visualize rules :
+
+1/ install & import package
+
+```{r}
+# install.packages("arulesViz", dependencies = TRUE)
+
+```
+```{r}
+# install.packages("grid")
+```
+
+
+```{r}
+library(arulesViz)
+```
+
+2/ Plot a graph of the most important rules
+
+```{r}
+plot(head(rules, 20, by = "lift"), method = "graph")
+```
+
+```{r}
+plot(head(rules, 20, by = "lift"), method = "matrix")
+
+```
+```{r}
+rules <- apriori(Adult, parameter = list(supp = 0.5, conf = 0.9, target = "closed frequent itemsets"))
+summary(rules)
+```
+
+```{r}
+inspect(head(rules, by = "support"))
+```
+
+
+```{r}
+rules <- apriori(Adult, parameter = list(supp = 0.5, conf = 0.9, target = "maximally frequent itemsets"))
+summary(rules)
+```
+
+```{r}
+inspect(head(rules, by = "support"))
+```
+
+```{r}
+rules <- apriori(Adult, parameter = list(supp = 0.5, conf = 0.9, target = "frequent itemsets"))
+summary(rules)
+```
+
+
+```{r}
+inspect(head(rules, by = "support"))
+```
+

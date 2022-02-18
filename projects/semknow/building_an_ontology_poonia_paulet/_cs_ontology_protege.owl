@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algebraic_Computation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algebraic_Computation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Computation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Bioinformatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Bioinformatics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Biomolecule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Biomolecule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Bioinformatics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cluster_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cluster_Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computational_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computational_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Graphics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Graphics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Programming"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Graphics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Continuous_Mathematic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Continuous_Mathematic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Management_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Management_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Database_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Database_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Discrete_Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Discrete_Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distribute_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distribute_Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Formal_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Formal_Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Genomic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Genomic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Bioinformatics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Heterogenous_Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Heterogenous_Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Capture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Capture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Compression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Compression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Enhancement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Enhancement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Reconstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Reconstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Restoration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Restoration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Segmentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Segmentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Image_Processing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Retrieval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Retrieval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Information_Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Intrusion_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Intrusion_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Knowledge_Representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Knowledge_Representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Machine_Learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Machine_Learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Mathematic_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Mathematic_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Algorithm_Design"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Molecular_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Molecular_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Bioinformatics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Natural_Language_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Natural_Language_Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Property">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Parallel_Computation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Parallel_Computation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Parallel_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Parallel_Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Distributed_Computing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Programming_Environement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Programming_Environement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Programming_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Programming_Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Computer_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Relational_Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Relational_Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Robotics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Robotics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Security_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Security_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_property">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Software_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Speech_Recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Speech_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Storage_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Storage_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Structured_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Structured_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Data_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Computation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Computation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Expression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Expression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Computation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Manipulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Manipulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Symbolic_Computation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#System_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#System_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/louispaulet/ontologies/2021/1/untitled-ontology-6#Cryptography"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

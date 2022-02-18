@@ -1,0 +1,55 @@
+,level1_13CoreConcepts,level2_subCoreConcepts
+0,Computer graphics,computer vision
+1,Image processing,image capture
+2,Image processing,image compression
+3,Image processing,image enhancement
+4,Image processing,image restoration
+5,Image processing,image reconstruction
+6,Image processing,image segmentation
+7,Image processing,image representation
+8,Artificial intelligence,knowledge representation
+9,Artificial intelligence,machine learning
+10,Artificial intelligence,natural language processing
+11,Artificial intelligence,robotic
+12,Artificial intelligence,speech recognition
+13,Artificial intelligence,information retrieval
+14,network,network architecture
+15,network,network protocol
+16,network,network property
+17,network,network service
+18,Cryptography,security service
+19,Cryptography,intrusion detection
+20,Cryptography,system security
+21,Cryptography,network security
+22,Cryptography,storage security
+23,Cryptography,software security
+24,Software engineering,software organization
+25,Software engineering,software property
+26,Software engineering,software tool
+27,Software engineering,software management
+28,Software engineering,software metric
+29,Software engineering,programming environment
+30,Distributed computing,parallel computing
+31,Distributed computing,distribute computing
+32,Distributed computing,cluster computing
+33,Distributed computing,distribute algorithm
+34,Distributed computing,parallel computation
+35,Symbolic computation,symbolic manipulation
+36,Symbolic computation,algebraic manipulation
+37,Symbolic computation,symbolic expression
+38,Algorithm design,discrete mathematic
+39,Algorithm design,information theory
+40,Algorithm design,mathematical analysis
+41,Algorithm design,continuous mathematic
+42,Computer programming,programming language
+43,Computer programming,formal language
+44,Computer programming,computational complexity
+45,Data structures,relational database
+46,Data structures,structured storage
+47,Data structures,data management system
+48,Data structures,database management
+49,Data structures,heterogeneous database
+50,Data structures,information storage
+51,Bioinformatics,biomolecule
+52,Bioinformatics,genomic
+53,Bioinformatics,molecular network

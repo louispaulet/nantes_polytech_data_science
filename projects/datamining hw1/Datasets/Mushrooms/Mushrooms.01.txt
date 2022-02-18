@@ -1,0 +1,25 @@
+Id	Odorant	Anneaux	Chapeau bombé	Pied large	Tâches	Comestible
+champignon 1	1	0	1	1	0	1
+champignon 2	1	0	1	1	1	1
+champignon 3	0	0	1	1	1	1
+champignon 4	1	0	0	1	1	0
+champignon 5	0	0	1	1	0	1
+champignon 6	1	0	1	1	0	1
+champignon 7	0	0	1	1	0	1
+champignon 8	1	1	0	1	0	1
+champignon 9	0	0	1	1	0	0
+champignon 10	1	1	1	1	0	1
+champignon 11	0	0	1	0	1	1
+champignon 12	0	1	1	1	0	0
+champignon 13	1	1	1	1	0	0
+champignon 14	1	0	1	1	0	1
+champignon 15	0	0	0	1	1	1
+champignon 16	0	0	1	1	0	1
+champignon 17	0	1	0	0	1	0
+champignon 18	1	0	1	1	1	1
+champignon 19	1	0	1	1	0	1
+champignon 20	0	0	1	1	0	1
+champignon 21	1	1	1	0	1	1
+champignon 22	1	0	1	1	1	1
+champignon 23	0	0	1	1	1	1
+champignon 24	0	0	1	0	0	0

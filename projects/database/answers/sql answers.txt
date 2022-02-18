@@ -1,0 +1,45 @@
+Louis Paulet
+
+1/ 
+SELECT title FROM movie where director = 'Steven Spielberg'
+
+2/ 
+SELECT name
+FROM Rating
+JOIN Movie ON Movie.mid = Rating.mid
+JOIN Reviewer ON Rating.rid = Reviewer.rid
+where title='Gone with the Wind'
+
+3/
+SELECT DISTINCT year
+FROM Rating
+JOIN Movie ON Movie.mid = Rating.mid
+JOIN Reviewer ON Rating.rid = Reviewer.rid
+where stars > 3
+
+4/
+SELECT title from Movie where Movie.mid NOT in (
+SELECT DISTINCT Movie.mid
+FROM Movie
+JOIN Rating ON Movie.mid = Rating.mid
+)
+
+5/
+SELECT title from Movie where Movie.mid NOT in (
+SELECT Movie.mid
+FROM Rating
+JOIN Movie ON Movie.mid = Rating.mid
+JOIN Reviewer ON Rating.rid = Reviewer.rid
+where name='Chris Jackson'
+)
+
+6/
+select name from (
+Select * from (
+SELECT name, title, Movie.mid
+FROM Rating
+JOIN Movie ON Movie.mid = Rating.mid
+JOIN Reviewer ON Rating.rid = Reviewer.rid
+where director = 'Steven Spielberg'
+  ) GROUP by name, title, mid
+  ) Group by name having count(mid) >= (select count(*) from Movie where director = 'Steven Spielberg')

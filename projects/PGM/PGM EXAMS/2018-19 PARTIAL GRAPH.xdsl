@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="A">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="E">
+			<state id="State0" />
+			<state id="State1" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="B">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>A</parents>
+			<probabilities>0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="C">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>A E</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.5905.0 ACADEMIC" name="Network2">
+			<node id="A">
+				<name>A</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>196 111 230 132</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="E">
+				<name>E</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>407 109 441 130</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="B">
+				<name>B</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>111 298 145 319</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="C">
+				<name>C</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>298 296 332 317</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

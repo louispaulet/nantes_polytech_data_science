@@ -1,0 +1,35 @@
+@relation Mushrooms.01.txt-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+
+@attribute Id {'champignon 1','champignon 2','champignon 3','champignon 4','champignon 5','champignon 6','champignon 7','champignon 8','champignon 9','champignon 10','champignon 11','champignon 12','champignon 13','champignon 14','champignon 15','champignon 16','champignon 17','champignon 18','champignon 19','champignon 20','champignon 21','champignon 22','champignon 23','champignon 24'}
+@attribute Odorant {0,1}
+@attribute Anneaux {0,1}
+@attribute 'Chapeau bombé' {0,1}
+@attribute 'Pied large' {0,1}
+@attribute Tâches {0,1}
+@attribute Comestible {0,1}
+
+@data
+'champignon 1',1,0,1,1,0,1
+'champignon 2',1,0,1,1,1,1
+'champignon 3',0,0,1,1,1,1
+'champignon 4',1,0,0,1,1,0
+'champignon 5',0,0,1,1,0,1
+'champignon 6',1,0,1,1,0,1
+'champignon 7',0,0,1,1,0,1
+'champignon 8',1,1,0,1,0,1
+'champignon 9',0,0,1,1,0,0
+'champignon 10',1,1,1,1,0,1
+'champignon 11',0,0,1,0,1,1
+'champignon 12',0,1,1,1,0,0
+'champignon 13',1,1,1,1,0,0
+'champignon 14',1,0,1,1,0,1
+'champignon 15',0,0,0,1,1,1
+'champignon 16',0,0,1,1,0,1
+'champignon 17',0,1,0,0,1,0
+'champignon 18',1,0,1,1,1,1
+'champignon 19',1,0,1,1,0,1
+'champignon 20',0,0,1,1,0,1
+'champignon 21',1,1,1,0,1,1
+'champignon 22',1,0,1,1,1,1
+'champignon 23',0,0,1,1,1,1
+'champignon 24',0,0,1,0,0,0

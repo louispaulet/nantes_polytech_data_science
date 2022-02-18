@@ -1,0 +1,43 @@
+french, 0
+aircraft carrier, 2
+french navy, 0
+marine nationale, 0
+navy, 0
+carrier, 2
+ship, 2
+service, 3
+task force, 1
+exercises, 3
+afghanistan, 1
+toulon, 1
+france, 3
+construction, 3
+brest, 3
+time, 3
+years, 3
+english, 3
+sea, 0
+mediterranean sea, 0
+design, 3
+fleet, 3
+defence, 1
+indian ocean, 1
+frigates, 3
+june, 3
+admiral, 0
+persian gulf, 2
+armed forces, 0
+battle, 1
+war, 1
+retrieved, 3
+isis, 1
+charles de gaulle, 2
+maritime gendarmerie, 2
+patrol boats, 2
+malta, 3
+french fleet, 3
+isbn, 3
+offshore patrol vessels, 0
+colombian navy, 0
+japan coast guard, 0
+maritime squadron, 0

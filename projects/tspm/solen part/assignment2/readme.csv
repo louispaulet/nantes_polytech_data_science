@@ -1,0 +1,16 @@
+#Last_name;First_name;neg_files;pos_files
+Amine;Yara;0_x.txt —> 7500_y.txt;4200_x.txt —> 11700_y.txt
+Fakih;Ginwa;300_x.txt —> 7800_y.txt;3900_x.txt —> 11400_y.txt
+Metivier;Juliana;600_x.txt —> 8100_y.txt;3600_x.txt —> 11100_y.txt
+Antheaume;Clement;900_x.txt —> 8400_y.txt;3300_x.txt —> 10800_y.txt
+Juge;Camille-Amaury;1200_x.txt —> 8700_y.txt;3000_x.txt —> 10500_y.txt
+Pan;Qiaofeng;1500_x.txt —> 9000_y.txt;2700_x.txt —> 10200_y.txt
+Bouyssou;Gatien;1800_x.txt —> 9300_y.txt;2400_x.txt —> 9900_y.txt
+Lamba;Ankit;2100_x.txt —> 9600_y.txt;0_x.txt —> 7500_y.txt
+Paulet;Louis;2400_x.txt —> 9900_y.txt;300_x.txt —> 7800_y.txt
+Dang;Minh-Hoang;2700_x.txt —> 10200_y.txt;600_x.txt —> 8100_y.txt
+Lei;Jinman;3000_x.txt —> 10500_y.txt;900_x.txt —> 8400_y.txt
+Poonia;Dheeraj;3300_x.txt —> 10800_y.txt;1200_x.txt —> 8700_y.txt
+Djedidi;Karim;3600_x.txt —> 11100_y.txt;1500_x.txt —> 9000_y.txt
+Lin;Yu;3900_x.txt —> 11400_y.txt;1800_x.txt —> 9300_y.txt
+Zhang;Siyuan;4200_x.txt —> 11700_y.txt;2100_x.txt —> 9600_y.txt

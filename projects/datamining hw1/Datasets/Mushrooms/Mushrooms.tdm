@@ -1,0 +1,8 @@
+[Diagram]
+Title=Mushrooms
+Database=D:\KDD\Exo\Mushrooms.txt
+
+[Dataset]
+MLClassGenerator=TMLGenDataset
+successors=0
+

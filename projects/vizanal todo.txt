@@ -1,0 +1,24 @@
+Data import / exploration
+
+- import : choose header / no header + separator type
+- exploration :
+	- plot :
+		- scatter
+		- 2d histogram
+	- distrib : bar plot / box plot
+	=> choose X/Y axis and add/remove/reorder vars
+	
+Model Overview :
+
+- correlation heatmap with method selection
+	- select/reorder vars
+	- select colors / symbols
+- add pairplot ?
+
+
+	
+Model : 
+
+- choose all model params and input vars
+- display confusion matrix as a heatmap or bargraph
+- display a tree based on selector

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="x00_2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="PKA">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.21 0.66 0.13</probabilities>
+		</cpt>
+		<cpt id="PKC">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA</parents>
+			<probabilities>0.8571428571428571 0.09523809523809523 0.04761904761904762 0.2424242424242424 0.6818181818181819 0.07575757575757576 0.7692307692307693 0.07692307692307693 0.1538461538461539</probabilities>
+		</cpt>
+		<cpt id="Raf">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA</parents>
+			<probabilities>0.09523809523809523 0.2857142857142857 0.6190476190476191 0.5303030303030303 0.3787878787878788 0.09090909090909091 0.8461538461538463 0.07692307692307693 0.07692307692307693</probabilities>
+		</cpt>
+		<cpt id="Mek">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Raf</parents>
+			<probabilities>0.7414965986394557 0.2517006802721088 0.006802721088435373 0.3131313131313131 0.6767676767676768 0.0101010101010101 0.4 0.15 0.45</probabilities>
+		</cpt>
+		<cpt id="Akt">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Mek</parents>
+			<probabilities>0.7333333333333334 0.2606060606060606 0.00606060606060606 0.719298245614035 0.2719298245614035 0.008771929824561403 0.1111111111111111 0.4444444444444444 0.4444444444444444</probabilities>
+		</cpt>
+		<cpt id="Erk">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA Akt</parents>
+			<probabilities>0.7333333333333334 0.2333333333333334 0.03333333333333333 0.375 0.5 0.125 0.06666666666666667 0.06666666666666667 0.8666666666666667 0.06 0.84 0.1 0.0625 0.5 0.4375 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.03333333333333333 0.9333333333333332 0.03333333333333333 0.06666666666666667 0.2666666666666667 0.6666666666666667 0.3333333333333333 0.3333333333333333 0.3333333333333333</probabilities>
+		</cpt>
+		<cpt id="P38">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>PKA</parents>
+			<probabilities>0.3333333333333333 0.09523809523809523 0.5714285714285714 0.8109452736318408 0.1840796019900497 0.004975124378109453 0.7692307692307693 0.07692307692307693 0.1538461538461539</probabilities>
+		</cpt>
+		<cpt id="Jnk">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>P38</parents>
+			<probabilities>0.7042253521126761 0.2816901408450704 0.01408450704225352 0.3958333333333333 0.5833333333333334 0.02083333333333333 0.5 0.1428571428571428 0.3571428571428571</probabilities>
+		</cpt>
+		<cpt id="Plcg">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.78 0.09 0.13</probabilities>
+		</cpt>
+		<cpt id="PIP3">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<probabilities>0.26 0.42 0.32</probabilities>
+		</cpt>
+		<cpt id="PIP2">
+			<state id="x1" />
+			<state id="x2" />
+			<state id="x3" />
+			<parents>Plcg</parents>
+			<probabilities>0.9662447257383967 0.02953586497890296 0.004219409282700422 0.6333333333333333 0.3333333333333334 0.03333333333333333 0.07692307692307693 0.2307692307692308 0.6923076923076923</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.5905.0 ACADEMIC" name="100-2">
+			<node id="PKC">
+				<name>PKC</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 10 178 58</position>
+			</node>
+			<node id="PKA">
+				<name>PKA</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 10 82 58</position>
+			</node>
+			<node id="Raf">
+				<name>Raf</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 74 178 122</position>
+			</node>
+			<node id="Mek">
+				<name>Mek</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>202 10 274 58</position>
+			</node>
+			<node id="Erk">
+				<name>Erk</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>394 10 466 58</position>
+			</node>
+			<node id="Akt">
+				<name>Akt</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>298 10 370 58</position>
+			</node>
+			<node id="Jnk">
+				<name>Jnk</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>202 74 274 122</position>
+			</node>
+			<node id="P38">
+				<name>P38</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 138 178 186</position>
+			</node>
+			<node id="Plcg">
+				<name>Plcg</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 74 82 122</position>
+			</node>
+			<node id="PIP3">
+				<name>PIP3</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>10 138 82 186</position>
+			</node>
+			<node id="PIP2">
+				<name>PIP2</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>106 202 178 250</position>
+			</node>
+			<textbox>
+				<caption>Input file: 100-2.txt\nData rows: 100\nElapsed time: 0.031s\n\nLearning algorithm: Greedy ThickThinning\nAlgorithm parameters:\nMax parent count: 8\nNo background knowledge\n\nScore: -1001.37\nEM Log Likelihood: -765.378</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>10 270 208 424</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>
